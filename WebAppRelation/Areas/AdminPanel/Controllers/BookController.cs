@@ -24,7 +24,9 @@ namespace WebAppRelation.Areas.AdminPanel.Controllers
 
         public IActionResult Create()
         {
-            return View();
+			ViewData["Categories"] = _db.Categories.ToList();
+			ViewData["Brands"] = _db.Brands.ToList();
+			return View();
         }
 
         [HttpPost]
