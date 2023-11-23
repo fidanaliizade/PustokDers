@@ -21,5 +21,24 @@ namespace WebAppRelation.Areas.AdminPanel.Controllers
                 .ToList();
             return View(admin);
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+
+        public IActionResult Create(Book book )
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            _db.Books.Add(book);
+            _db.SaveChanges();
+            return RedirectToAction("Table");
+        }
+
     }
 }

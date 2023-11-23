@@ -19,7 +19,7 @@ namespace WebAppRelation
 
             app.MapControllerRoute(
                 name: "Admin",
-                pattern: "{area:exists}/{controller=Admin}/{action=Index}/{Id?}"
+                pattern: "{area:exists}/{controller=Admin}/{action=Table}/{Id?}"
                 );
 
             app.MapControllerRoute(
