@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OUvwOkEWssU3NnXBLVUL8SfTBM2k+8pSOQmX+aYWIc166C3CCGqyhBhw7Y3idvDgA8nsx0LvRNrryHE8YaL8Qw==",
+  "dgSpecHash": "gMKcANyJQHUsu7NyYA+4gO7A5iuNHO9CnmgjCUwh2nmm6WNcZp5SI2lYf82+eE9YJ1nRbegsMoCGukGRAIpkJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\II novbe\\Desktop\\WebAppRelation\\WebAppRelation\\WebAppRelation.csproj",
+  "projectFilePath": "C:\\Users\\II novbe\\Desktop\\PustokWebApp\\WebAppRelation\\WebAppRelation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\II novbe\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\II novbe\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
